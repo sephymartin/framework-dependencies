@@ -119,6 +119,7 @@
         <sonar-maven-plugin.version>3.11.0.3922</sonar-maven-plugin.version>
         <!-- https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/analysis-parameters/ -->
         <cleanthat.version>2.12</cleanthat.version>
+        <mybatis-plus-spring-boot3-starter.version>3.5.7</mybatis-plus-spring-boot3-starter.version>
     </properties>
 
     <dependencyManagement>
@@ -299,8 +300,8 @@
             <!-- mybatis plus starter -->
             <dependency>
                 <groupId>com.baomidou</groupId>
-                <artifactId>mybatis-plus-boot-starter</artifactId>
-                <version>${mybatis-plus-boot-starter.version}</version>
+                <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
+                <version>${mybatis-plus-spring-boot3-starter.version}</version>
                 <exclusions>
                     <!--
                     <exclusion>
