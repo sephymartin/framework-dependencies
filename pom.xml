@@ -19,6 +19,7 @@
     <name>framework-dependencies</name>
 
     <properties>
+        <spring-boot.version>3.2.7</spring-boot.version>
         <tika-core.version>1.22</tika-core.version>
         <rversion>0.1.0-SNAPSHOT</rversion>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
